@@ -16,8 +16,11 @@
     "@types/forge-viewer": "^7.39.0"
   },
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.17.1",
     "express-formidable": "^1.2.0",
-    "forge-apis": "^0.7.3"
+    "forge-apis": "^0.7.3",
+    "object-assign": "^4.1.1"
   }
 }

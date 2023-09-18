@@ -1,4 +1,5 @@
 const { AuthClientTwoLegged, BucketsApi, ObjectsApi, DerivativesApi } = require('forge-apis');
+require('dotenv').config()
 
 const { FORGE_CLIENT_ID, FORGE_CLIENT_SECRET, FORGE_BUCKET } = process.env;
 if (!FORGE_CLIENT_ID || !FORGE_CLIENT_SECRET) {
