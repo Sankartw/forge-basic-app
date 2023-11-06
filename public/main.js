@@ -112,3 +112,7 @@ function loadModel(viewer, urn) {
     window.location.hash = urn;
     Autodesk.Viewing.Document.load('urn:' + urn, onDocumentLoadSuccess, onDocumentLoadFailure);
 }
+
+function getMetaDtaGuid(urn) {
+
+}
